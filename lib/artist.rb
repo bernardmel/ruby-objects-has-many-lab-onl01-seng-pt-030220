@@ -13,6 +13,6 @@ class Artist
     Song.select{|song| print.all}
   end
 
-  
+
 
 end
