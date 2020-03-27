@@ -13,7 +13,7 @@ class Post
     @@all
   end
 
-  def title
+  def self.title
     @title 
   end
 
