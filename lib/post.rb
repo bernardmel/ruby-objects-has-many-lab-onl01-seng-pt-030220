@@ -13,7 +13,11 @@ class Post
     @@all
   end
 
-  def
+  def title
+    @title = title
+  end
+
+
 
   def author_name
       if @author == nil
