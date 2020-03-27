@@ -23,7 +23,7 @@ class Artist
   end
 
   def self.song_count
-    Song.all.print
+    Song.all.select{|song| song.artist}
   end
 
 end
