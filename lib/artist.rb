@@ -5,4 +5,3 @@ class Artist
     @name = name
     Songs.all
   end
-
