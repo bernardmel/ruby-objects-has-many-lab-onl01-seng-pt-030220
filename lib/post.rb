@@ -4,18 +4,17 @@ class Post
 
     @@all = []
 
-  def initialize(new)
+  def initialize(new, title)
     @new = new
     @@all << self
+    @title = title
   end
 
   def self.all
     @all = []
   end
 
-  def title
-    @title = title
-  end
+
 
   def author_name
       if @author == nil
