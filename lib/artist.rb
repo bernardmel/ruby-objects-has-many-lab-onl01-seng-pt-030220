@@ -1,6 +1,6 @@
 class Artist
 
-  
+  @@total_songs = 0
 
   attr_accessor :name
 
@@ -11,6 +11,10 @@ class Artist
 
   def songs
     @songs
+  end
+
+  def self.total_songs
+    @total_songs
   end
 
 end
