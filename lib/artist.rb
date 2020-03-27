@@ -6,7 +6,7 @@ class Artist
     @name = name
   end
 
-  def Songs
+  def self.Songs
     @songs = songs
   end
 
