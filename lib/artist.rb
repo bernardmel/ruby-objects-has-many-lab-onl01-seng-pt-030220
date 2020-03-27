@@ -6,7 +6,7 @@ class Artist
     @song = []
   end
 
-  def song
+  def songs
     Song.all
   end
 
