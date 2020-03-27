@@ -1,4 +1,4 @@
-require 'pry'
+
 class Artist
 
   attr_accessor :name
@@ -10,9 +10,8 @@ class Artist
   end
 
   def songs
-    @songs
+    @songs = songs
   end
 
 
 end
-binding.pry
