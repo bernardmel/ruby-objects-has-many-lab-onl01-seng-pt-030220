@@ -10,8 +10,8 @@ class Artist
   end
 
   def songs
-    Song.all.select{|song| print.all}
-    if song.artist = @songs
+    Song.all.select{|song| == song.artist}
+  
   end
 
 
