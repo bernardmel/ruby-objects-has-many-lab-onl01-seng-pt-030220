@@ -29,5 +29,5 @@ class Artist
     @@self_count
   end
 
-  
+
 end
