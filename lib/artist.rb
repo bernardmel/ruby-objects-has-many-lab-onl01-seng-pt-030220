@@ -7,7 +7,7 @@ class Artist
   end
 
   def songs
-    @songs = Song.all{|songs|}
+    @songs = Song.all
   end
 
 end
