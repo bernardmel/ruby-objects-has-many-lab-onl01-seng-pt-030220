@@ -1,5 +1,7 @@
 class Post
 
+  attr_accessor :new
+
     @@all = []
 
   def initialize(new)
