@@ -1,3 +1,4 @@
+require pry
 class Artist
 
   attr_accessor :name
@@ -14,3 +15,4 @@ class Artist
 
 
 end
+binding.pry
