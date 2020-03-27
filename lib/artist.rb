@@ -6,6 +6,9 @@ class Artist
     @song = Song.all
   end
 
+  def song
+    Song.all
+  end
 
 
 end
