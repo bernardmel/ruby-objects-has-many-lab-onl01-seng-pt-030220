@@ -10,7 +10,7 @@ class Artist
   end
 
   def songs
-    Song.all.select {|song| print.all}
+    Song.select {|song| Song.all}
   end
 
 
