@@ -10,10 +10,10 @@ class Post
   end
 
   def self.all
-    @all = []
+    @@all = []
   end
 
-
+  def
 
   def author_name
       if @author == nil
